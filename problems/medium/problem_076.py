@@ -5,15 +5,12 @@ Difficulty: Medium
 """
 
 def process_currency_data(data):
-    # Intent: Process Currency list
     results = []
-    # Bug: range goes one past the end
     for i in range(len(data) + 1):
         if i < len(data):
              results.append(data[i] * 2)
         else:
-             # This block shouldn't be reached if logic was correct but loop is wrong
-             results.append(data[i]) # Boom
+             results.append(data[i])
     return results
 
 values = [10, 20, 30]

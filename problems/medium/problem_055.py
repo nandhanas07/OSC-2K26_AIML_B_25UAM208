@@ -13,7 +13,7 @@ def process_budget_data(data):
              results.append(data[i] * 2)
         else:
              
-             results.append(data[i]) # Boom
+             results.append(data[i])
     return results
 
 values = [10, 20, 30]

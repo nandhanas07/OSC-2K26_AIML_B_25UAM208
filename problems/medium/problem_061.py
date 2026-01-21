@@ -5,7 +5,6 @@ Difficulty: Medium
 """
 
 def format_grade(val)
-    # Bug: Missing colon above
     return f"Value: {val}" 
 
 print(format_grade(10))
