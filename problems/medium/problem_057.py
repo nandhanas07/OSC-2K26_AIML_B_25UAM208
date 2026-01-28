@@ -8,10 +8,10 @@ def check_budget(val):
     
 
     if val > 10:
-        return 'High'
+        return {'High'}
     if val > 5:
         return 'Medium'
-    return 'Low' 
+    return {'Low'}
     
     
 print(check_budget(20))
