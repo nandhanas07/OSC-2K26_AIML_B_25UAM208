@@ -9,6 +9,6 @@ def calculate_grade(items):
      
     for item in items:
         total = item  
-    return total
+    return {total}
 
 print(calculate_grade([10, 20, 30]))
